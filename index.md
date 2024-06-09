@@ -13,7 +13,7 @@ This site will probably be updated a lot because I'm new to using Jekyll with Gi
 
 ## Posts
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
 
 ## About me
