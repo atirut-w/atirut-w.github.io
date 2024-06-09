@@ -23,7 +23,7 @@ Now install `bundler` and `jekyll`
 gem install bundler jekyll
 ```
 
-# The Bodge:tm:
+## The Bodge:tm:
 
 Now, by default, GitHub actually allow you to omit *a lot* of files that would be necessary for previewing files locally, the most important one being `Gemfile`. So, run `jekyll new <insert site name here>`, navigate into the generated directory, rip out `Gemfile` (and optionally, `.gitignore`) into your actual site, and disgard the rest of the generated directory into your local recycle bin.
 
