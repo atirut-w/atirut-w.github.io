@@ -9,4 +9,4 @@ Contents include:
 - Inconsistent writing style which may or may not be influenced by my mental state.
 - Even more ramblings and yapping.
 
-This site will probably be updated a lot, because previewing changes locally with Jekyll is an absolute *fucking nightmare* because Ruby:tm:. Don't worry, though! You won't even know there's an update because I'd probably drop a commit or two before you even realize what's doing on.
+This site will probably be updated a lot because I'm new to using Jekyll with GitHub pages, and previewing changes locally with Jekyll is an absolute *fucking nightmare* because Ruby:tm:. Don't worry, though! You won't even know there's an update because I'd probably drop a commit or two before you even realize what's doing on.
