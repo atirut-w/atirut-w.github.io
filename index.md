@@ -1,20 +1,8 @@
 # Home
-Hi! Welcome to my ~~mancave~~ blog site! This is where I plan to put long-form posts in, so that I wouldn't clog up the Twitter feed of my followers or something. Trust me, only a *handful* of people can handle my yapping.
+Hi! My name's Atirut, but you may know me by another alias, Wattana. This is my personal website where I write blogs sharing my thoughts, opinions, experiences, blah blah blah. I'm a hobbyist programmer (hence the website's name), so most of the stuff here will be pretty nerdy. I'll try to keep it varied, though. Oh, yeah, I also occasionally write tutorials, too. I hope you enjoy reading my ramblings!
 
-Contents include:
-- Nerd stuff
-- Ramblings
-- Programming, and all the pains associated.
-- Blog posts spontaneously disappearing (`git push --force` my beloved).
-- Inconsistent writing style which may or may not be influenced by my mental state.
-- Even more ramblings and yapping.
-
-This site will probably be updated a lot because I'm new to using Jekyll with GitHub pages, and previewing changes locally with Jekyll is an absolute *fucking nightmare* because Ruby:tm:. Don't worry, though! You won't even know there's an update because I'd probably drop a commit or two before you even realize what's doing on.
-
-## Posts
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
+## Recent Posts
+{% for post in site.posts limit: 5 %}
+### {{ post.date | date: "%d/%m/%Y" }} - [{{ post.title }}]({{ post.url | relative_url }})
+{{ post.excerpt }}
 {% endfor %}
-
-## About me
-["Thank you Mario! But our princess is in another castle!"](https://github.com/atirut-w/)
