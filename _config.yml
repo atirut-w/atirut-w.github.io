@@ -1,5 +1,6 @@
 title: "The Code Den"
 description: "I *do not* know what I am doing™"
+google_analytics: "G-96M1BRKNCS"
 livereload: true
 
 remote_theme: pages-themes/hacker@v0.2.0
