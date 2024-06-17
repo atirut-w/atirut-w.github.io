@@ -1,0 +1,17 @@
+<!-- TODO: Make current page input interactive -->
+<form class="pagination">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">Previous</a>
+    {% else %}
+        <span>Previous</span>
+    {% endif %}
+
+    <input type="number" name="page" value="{{ paginator.page }}" min="1" max="{{ paginator.total_pages }}">
+    <span>/ {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">Next</a>
+    {% else %}
+        <span>Next</span>
+    {% endif %}
+</form>
