@@ -6,7 +6,7 @@
         <span>Previous</span>
     {% endif %}
 
-    <input type="number" name="page" value="{{ paginator.page }}" min="1" max="{{ paginator.total_pages }}">
+    <input type="number" name="page" value="{{ paginator.page }}" min="1" max="{{ paginator.total_pages }}" size="4" disabled>
     <span>/ {{ paginator.total_pages }}</span>
 
     {% if paginator.next_page %}
