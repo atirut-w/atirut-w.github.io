@@ -6,7 +6,7 @@ I am currently studying computer science (and getting curb-stomped by Calculus) 
 
 ## Notable Projects
 - [Fantacom](https://github.com/atirut-w/fantacom/) (on hold due to infrastructural issues)
-- [ZDK](https://github.com/atirut-w/zdk/) (a C compiler and runtime for the Z80 processor)
+- [ZDK](https://github.com/atirut-w/zdk/) (**WIP**) (a C compiler and runtime for the Z80 processor)
 
 ## Skills
 - C++ (intermediate)
