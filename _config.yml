@@ -4,7 +4,7 @@ paginate: 5
 paginate_path: "blog/:num/"
 livereload: true
 
-remote_theme: pages-themes/hacker@v0.2.0
+# remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
