@@ -11,14 +11,7 @@ layout: default
 </div>
 
 {% for post in paginator.posts %}
-  <article class="mb-5">
-    <h2 class="h4">
-      <small class="text-muted">{{ post.date | date: "%d/%m/%Y" }}</small> - 
-      <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a>
-    </h2>
-    <p class="text-muted fst-italic">by {{ post.author | default: site.author }}</p>
-    <p>{{ post.excerpt }}</p>
-  </article>
+  {% include post-entry.html post=post %}
 {% endfor %}
 
 <hr>

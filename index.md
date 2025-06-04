@@ -25,9 +25,8 @@ For RSS feed, click <a href="{{ "/feed.xml" | absolute_url }}" download>here</a>
 
 {% if site.posts.size > 0 %}
   {% for post in site.posts limit: 5 %}
-### {{ post.date | date: "%d %B %Y" }} - [{{ post.title }}]({{ post.url }})
-{{ post.excerpt | strip_html | truncatewords: 30 }}
-[Read more]({{ post.url }})
+<!-- DO NOT indent the line below, or the first and last tag from the included file breaks! -->
+{% include post-entry.html post=post %}
   {% endfor %}
 {% else %}
   <p>No recent posts available at the moment. Please check back later.</p>
