@@ -1,21 +1,5 @@
 # Home
-Hi! My name's Atirut, but you may know me by another alias, Wattana. This is my personal website where I write blogs sharing my thoughts, opinions, experiences, blah blah blah. I'm a hobbyist programmer (hence the website's name) and also a gamer, so most of the stuff here will be pretty nerdy. I'll try to keep it varied, though. Oh, yeah, I also occasionally write tutorials, too. I hope you enjoy reading my ramblings!
-
-## Work and Education
-I am currently studying computer science (and getting curb-stomped by math) at Kasetsart University.
-
-## Notable Projects
-- [MultiEmu](https://github.com/atirut-w/multiemu/) (on hold due to infrastructural issues)
-
-## Skills
-- C++ (intermediate)
-- C# (ex-intermediate, now rusty)
-- GDScript (intermediate, somewhat rusty)
-- Lua (intermediate, somewhat rusty)
-- Python (intermediate)
-- Assembly
-  - Z80 (beginner-intermediate)
-  - 6502 (beginner-intermediate, but tends to avoid)
+Hi! Welcome to my blog site thingy! I assume you've read my GitHub profile? Most of the information is there, but to recap: I'm Atirut, you may otherwise know me as Wattana. I'm interested in lots of nerdy topics, yada yada yada. This is where I ramble on and on.
 
 ## Recent Posts
 
